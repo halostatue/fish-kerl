@@ -1,12 +1,12 @@
 # halostatue/fish-kerl
 
-Support for [kerl][] in the [fish shell][].
+Support for [kerl](https://github.com/kerl/kerl) in the [fish shell](https://github.com/fish-shell/fish-shell).
 
 [![Version][]][]
 
 ## Installation
 
-Install with [Fisher][] (recommended):
+Install with [Fisher](https://github.com/jorgebucaran/fisher) (recommended):
 
 ```fish
 fisher add halostatue/fish-kerl
