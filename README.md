@@ -1,12 +1,12 @@
 # halostatue/fish-kerl
 
-Support for [kerl][] in the [fish shell][].
+Support for [kerl] in the [fish shell].
 
-[![Version][]][]
+[![Version]]
 
 ## Installation
 
-Install with [Fisher][] (recommended):
+Install with [Fisher] (recommended):
 
 ```fish
 fisher add halostatue/fish-kerl
@@ -17,14 +17,14 @@ fisher add halostatue/fish-kerl
 
 ---
 
-Copy `functions/*.fish` to your fish configuration directory preserving the
-directory structure.
+Copy `functions/*.fish`, `conf.d/*.fish`, and `completions/*.fish` to your
+fish configuration directory preserving the directory structure.
 </details>
 
 ### System Requirements
 
-- [fish][] 3.0+
-- [kerl][]
+- [fish] 3.0+
+- [kerl]
 
 ## Functions
 
@@ -42,7 +42,7 @@ kerl_activate 21.3
 
 [fish shell]: https://fishshell.com "friendly interactive shell"
 [Version]: https://img.shields.io/github/tag/halostatue/fish-kerl.svg?label=Version
-[![Version][]]: https://github.com/halostatue/fish-kerl/releases
+[![Version]]: https://github.com/halostatue/fish-kerl/releases
 [Fisher]: https://github.com/jorgebucaran/fisher
 [fish]: https://github.com/fish-shell/fish-shell
 [halostatue/fish-utils]: https://github.com/halostatue/fish-utils
