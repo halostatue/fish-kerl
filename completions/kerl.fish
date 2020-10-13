@@ -60,3 +60,7 @@ complete --command kerl --condition '_halostatue_fish_kerl_seen_subcommand_chain
 
 # version
 complete --command kerl --condition _halostatue_fish_kerl_no_subcommand --arguments version --description 'Print current version' --no-files
+
+# activate
+complete --command kerl --condition _halostatue_fish_kerl_no_subcommand --arguments activate --description 'Activate an installation' --no-files
+complete --command kerl --condition '_halostatue_fish_kerl_seen_subcommand_chain activate; and _halostatue_fish_kerl_pos 2' --arguments '(_halostatue_fish_kerl_installnames)' --description 'Build' --no-files

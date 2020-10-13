@@ -73,7 +73,7 @@ end
 
 function _halostatue_fish_kerl_no_subcommand
     for i in (commandline -opc)
-        if contains -- $i build install deploy update list delete install-docsh path active plt status prompt cleanup version
+        if contains -- $i build install deploy update list delete install-docsh path active plt status prompt cleanup version activate
             return 1
         end
     end
