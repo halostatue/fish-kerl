@@ -9,7 +9,11 @@ Support for [kerl] in the [fish shell].
 Install with [Fisher] (recommended):
 
 ```fish
+# Fisher 3.x
 fisher add halostatue/fish-kerl
+
+# Fisher 4.0+
+fisher install halostatue/fish-kerl
 ```
 
 <details>
