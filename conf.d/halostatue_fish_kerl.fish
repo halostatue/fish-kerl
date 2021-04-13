@@ -15,10 +15,12 @@ function _halostatue_fish_kerl_base_dir
         and set base (string match -e KERL_BASE_DIR= < $config | string replace -r '^.*?=' '')
 
         if not test -z $base
-            if functions -q bass
+            if functions -q replay
+                set base (replay "echo "$base)
+            else if functions -q bass
                 set base (bass "echo "$base)
             else if functions -q bax
-                set base (bax "echo "$bax)
+                set base (bax "echo "$base)
             else
                 set base (eval (string replace -a -r '\$\{([^}]+)\}' '$$$1' $base))
             end
@@ -81,8 +83,8 @@ function _halostatue_fish_kerl_no_subcommand
 end
 
 function _halostatue_fish_kerl_pos
-  set -l cmd (commandline -opc)
-  test (count $cmd) -eq $argv[1]
+    set -l cmd (commandline -opc)
+    test (count $cmd) -eq $argv[1]
 end
 
 function _halostatue_fish_kerl_seen_subcommand_chain
