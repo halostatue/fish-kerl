@@ -1,5 +1,9 @@
 # fish-kerl Changelog
 
+## 1.4 / 2023-09-26
+
+- Add support for kerl 3.0+ in completions.
+
 ## 1.3 / 2021-04-13
 
 - Update `conf.d/halostatue_fish_kerl.fish` to recognize the renamed version of
