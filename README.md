@@ -1,5 +1,9 @@
 # halostatue/fish-kerl
 
+> [!CAUTION]
+>
+> This plugin is unlikely to be updated further.
+
 [![Version][]](https://github.com/halostatue/fish-kerl/releases)
 
 Support for [kerl][] in the [fish shell][], providing completions for `kerl`.
@@ -9,18 +13,8 @@ Support for [kerl][] in the [fish shell][], providing completions for `kerl`.
 Install with [Fisher][] (recommended):
 
 ```fish
-fisher install halostatue/fish-kerl@1.x
+fisher install halostatue/fish-kerl@v1.x
 ```
-
-<details>
-<summary>Not using a package manager?</summary>
-
----
-
-Copy `functions/*.fish`, `conf.d/*.fish`, and `completions/*.fish` to your
-fish configuration directory preserving the directory structure.
-
-</details>
 
 ### System Requirements
 
@@ -29,7 +23,7 @@ fish configuration directory preserving the directory structure.
 
 ## Functions
 
-### kerl_activate
+### `kerl_activate`
 
 Activates the named `kerl` build. Can also be called as `kerl activate`.
 
